@@ -1,0 +1,41 @@
+{
+  "name": "native-ocr",
+  "version": "1.0.0",
+  "description": "macOS Vision OCR library with Node.js bindings using node-swift",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "node-swift build",
+    "rebuild": "node-swift rebuild"
+  },
+  "keywords": [
+    "ocr",
+    "vision",
+    "macos",
+    "text-recognition",
+    "swift"
+  ],
+  "author": "CHOYSEN",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "darwin"
+  ],
+  "files": [
+    ".build/",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "your-repository-url"
+  },
+  "bugs": {
+    "url": "your-repository-url/issues"
+  },
+  "homepage": "your-repository-url#readme",
+  "packageManager": "pnpm@8.6.2+sha512.0e68307be4f7e17afa5186932d74a984f4bba24e21d843e46874041fa8fb512a00936d42cee780743d6740b9162700e766426e721a342db2a7b49fbd079c6551",
+  "dependencies": {
+    "node-swift": "^1.4.0"
+  }
+}

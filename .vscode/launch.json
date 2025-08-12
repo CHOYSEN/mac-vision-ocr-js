@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:mac-vision-ocr-js}",
+      "name": "Debug MacVisionOCR",
+      "program": "${workspaceFolder:mac-vision-ocr-js}/.build/debug/MacVisionOCR",
+      "preLaunchTask": "swift: Build Debug MacVisionOCR"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:mac-vision-ocr-js}",
+      "name": "Release MacVisionOCR",
+      "program": "${workspaceFolder:mac-vision-ocr-js}/.build/release/MacVisionOCR",
+      "preLaunchTask": "swift: Build Release MacVisionOCR"
+    }
+  ]
+}
